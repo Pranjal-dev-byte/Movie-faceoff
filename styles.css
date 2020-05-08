@@ -1,0 +1,88 @@
+body,
+html {
+	margin: 0px;
+	padding: 0px;
+	/* overflow: hidden; */
+}
+nav {
+	/* Todo :: Add a gradient for the bacground ; */
+	background-color: aquamarine;
+	text-align: center;
+}
+h1 {
+	font-size: 30px;
+	margin: 0;
+	font-family: tahoma;
+	color: aliceblue;
+	padding: 2em;
+}
+main {
+	padding: 1.2rem;
+	display: block;
+}
+img {
+	width: 2rem;
+	margin: 2px;
+}
+input {
+	width: 30em;
+	text-align: center;
+	font-size: 20px;
+	padding: .2em;
+}
+.columns {
+	display: flex !important;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.outline {
+	display: flex;
+	flex-direction: column;
+}
+.dropdown-content {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+}
+.dropdown-item {
+	padding: .3rem !important;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.poster {
+	width: 8rem;
+}
+.collection {
+	background-color: hsl(172, 90%, 40%);
+	padding: 0px 1.2em;
+	margin: 8px 0px;
+}
+h2 {
+	color: hsl(172, 100%, 100%);
+	padding: 4px;
+	font-size: 1.2em;
+}
+.collection p {
+	color: hsl(172, 100%, 90%);
+	font-size: 1.2em;
+}
+.notification {
+	text-align: center;
+}
+#left-summary,
+#right-summary {
+	display: flex;
+	flex-direction: column;
+	margin-right: 6px;
+	max-width: 45rem;
+}
+.media {
+	margin-top: 2%;
+	height: 200px; /* TODO::: Convert the height to some relative unit*/
+}
+.is-loser {
+	background-color: hsl(0, 64%, 48%);
+	padding: 0px 1.2em;
+	margin: 8px 4px;
+}
