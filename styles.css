@@ -36,15 +36,15 @@ img {
 }
 input {
 	width: 30em;
-	box-shadow: 4px 6px 10px hsl(4, 2%, 10%);
+	box-shadow: 2px 2px 5px hsl(4, 2%, 10%);
 	text-align: center;
 	font-size: 20px;
 	padding: .2em;
 	scale: (1);
-	transition: all .4s;
+	transition: all .2s;
 }
 input:focus {
-	transform: scale(1.06) translateY(-2px);
+	transform: scale(1.011) translateY(-1px);
 }
 .columns {
 	display: flex !important;
@@ -95,7 +95,7 @@ h2 {
 }
 .media {
 	margin-top: 2%;
-	height: 200px; /* TODO::: Convert the height to some relative unit*/
+	height: 200px;
 }
 .is-loser {
 	background-color: hsl(0, 64%, 48%);
